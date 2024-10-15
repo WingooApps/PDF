@@ -1,0 +1,429 @@
+# compiler: R8
+# compiler_version: 4.0.48
+# common_typos_disable
+# {"id":"com.android.tools.r8.mapping","version":"2.1"}
+# pg_map_id: c581414
+# pg_map_hash: SHA-256 c581414e80918fa12c81d2ffaf5e857efb62b95343bd8073ac6fdcf42f746484
+com.remi.remiads.BuildConfig -> a.a:
+    boolean DEBUG -> a
+    java.lang.String BUILD_TYPE -> c
+    java.lang.String LIBRARY_PACKAGE_NAME -> b
+    1:1:void <init>():6:6 -> <init>
+com.remi.remiads.RmManager -> com.remi.remiads.a:
+    1:5:void <init>(android.app.Activity):12:16 -> <init>
+com.remi.remiads.SplashController -> a.b:
+    android.app.Activity activity -> e
+    com.remi.remiads.ads.OpenAdManager openAdManager -> d
+    com.remi.remiads.itf.SplashResult splashResult -> f
+    boolean time -> a
+    boolean load -> b
+    boolean pause -> c
+    1:6:void <init>(android.app.Activity,com.remi.remiads.itf.SplashResult):21:26 -> <init>
+    1:1:boolean access$002(com.remi.remiads.SplashController,boolean):13:13 -> a
+    2:2:void access$100(com.remi.remiads.SplashController):13:13 -> a
+    3:11:void check():54:62 -> a
+    1:2:void lambda$check$1():63:64 -> b
+    1:1:void lambda$check$2():62:62 -> c
+    1:2:void lambda$loadAds$0():36:37 -> d
+    1:21:void loadAds():30:50 -> e
+    1:1:void onPause():73:73 -> f
+    1:1:void onResume():69:69 -> g
+com.remi.remiads.SplashController$1 -> a.b$a:
+    com.remi.remiads.SplashController this$0 -> a
+    1:1:void <init>(com.remi.remiads.SplashController,long,long):39:39 -> <init>
+    1:2:void onFinish():46:47 -> onFinish
+com.remi.remiads.a_pro.BillingConnectListen -> b.a:
+    void onConnected() -> a
+com.remi.remiads.a_pro.MyBilling -> b.b:
+    com.remi.remiads.a_pro.MyBilling$PURCHASE_TYPE mPurchaseType -> f
+    com.android.billingclient.api.BillingClient billingClient -> b
+    com.remi.remiads.a_pro.MyBillingSubsResult mBillingSubsResult -> e
+    com.remi.remiads.a_pro.BillingConnectListen billingConnectListen -> g
+    boolean isCheck -> h
+    android.app.Activity activity -> a
+    com.remi.remiads.a_pro.MyBillingResult myBillingResult -> d
+    com.android.billingclient.api.PurchasesUpdatedListener purchasesUpdatedListener -> i
+    boolean isConnected -> c
+    1:1:void <init>(android.app.Activity,boolean,com.remi.remiads.a_pro.BillingConnectListen):56:56 -> <init>
+    2:20:void <init>(android.app.Activity,boolean,com.remi.remiads.a_pro.BillingConnectListen):51:69 -> <init>
+    21:29:void <init>(android.app.Activity,boolean,com.remi.remiads.a_pro.BillingConnectListen):57:65 -> <init>
+    void lambda$handlePurchaseOneTime$0(com.android.billingclient.api.BillingResult) -> a
+    1:1:com.remi.remiads.a_pro.MyBilling$PURCHASE_TYPE access$000(com.remi.remiads.a_pro.MyBilling):35:35 -> a
+    2:2:void access$200(com.remi.remiads.a_pro.MyBilling,com.android.billingclient.api.Purchase):35:35 -> a
+    3:13:void handlePurchaseMoreTime(com.android.billingclient.api.Purchase):144:154 -> a
+    14:15:void lambda$handlePurchaseMoreTime$1(com.android.billingclient.api.BillingResult,java.lang.String):149:150 -> a
+    16:17:void checkHistory():221:222 -> a
+    18:25:void lambda$checkHistory$3(com.android.billingclient.api.BillingResult,java.util.List):224:231 -> a
+    26:38:void makePurchase(java.lang.String,com.remi.remiads.a_pro.MyBillingResult):271:283 -> a
+    39:51:void lambda$makePurchase$4(java.lang.String,com.android.billingclient.api.BillingResult,java.util.List):284:296 -> a
+    52:66:void makePurchaseSubscription(java.lang.String,com.remi.remiads.a_pro.MyBillingSubsResult):305:319 -> a
+    67:90:void getSkuList(com.remi.remiads.a_pro.PriceResult,java.lang.String[]):351:374 -> a
+    91:93:void lambda$getSkuList$6(com.remi.remiads.a_pro.PriceResult,com.android.billingclient.api.BillingResult,java.util.List):361:363 -> a
+    1:1:android.app.Activity access$100(com.remi.remiads.a_pro.MyBilling):35:35 -> b
+    2:2:void access$500(com.remi.remiads.a_pro.MyBilling,com.android.billingclient.api.Purchase):35:35 -> b
+    3:7:void handlePurchaseOneTime(com.android.billingclient.api.Purchase):127:131 -> b
+    8:8:void checkPurchaseSubscriptionCache():246:246 -> b
+    9:22:void lambda$makePurchaseSubscription$5(java.lang.String,com.android.billingclient.api.BillingResult,java.util.List):320:333 -> b
+    23:27:void lambda$makePurchaseSubscription$5(java.lang.String,com.android.billingclient.api.BillingResult,java.util.List):331:335 -> b
+    28:38:void lambda$makePurchaseSubscription$5(java.lang.String,com.android.billingclient.api.BillingResult,java.util.List):326:336 -> b
+    39:41:void lambda$getSkuList$7(com.remi.remiads.a_pro.PriceResult,com.android.billingclient.api.BillingResult,java.util.List):368:370 -> b
+    1:1:void access$300(com.remi.remiads.a_pro.MyBilling):35:35 -> c
+    2:2:void access$600(com.remi.remiads.a_pro.MyBilling,com.android.billingclient.api.Purchase):35:35 -> c
+    3:29:void handlePurchaseSubscription(com.android.billingclient.api.Purchase):158:184 -> c
+    30:31:void lambda$reConnectToGooglePlay$2():212:213 -> c
+    1:1:com.remi.remiads.a_pro.MyBillingResult access$400(com.remi.remiads.a_pro.MyBilling):35:35 -> d
+    2:2:void access$800(com.remi.remiads.a_pro.MyBilling,com.android.billingclient.api.Purchase):35:35 -> d
+    3:5:void saveCache(com.android.billingclient.api.Purchase):345:347 -> d
+    6:12:void onDestroy():380:386 -> d
+    1:1:com.remi.remiads.a_pro.MyBillingSubsResult access$700(com.remi.remiads.a_pro.MyBilling):35:35 -> e
+    2:2:void reConnectToGooglePlay():211:211 -> e
+    1:2:void sendPurchasesResult():139:140 -> f
+    1:2:void onBillingServiceDisconnected():190:191 -> onBillingServiceDisconnected
+    1:11:void onBillingSetupFinished(com.android.billingclient.api.BillingResult):196:206 -> onBillingSetupFinished
+com.remi.remiads.a_pro.MyBilling$1 -> b.b$a:
+    com.remi.remiads.a_pro.MyBilling this$0 -> a
+    1:1:void <init>(com.remi.remiads.a_pro.MyBilling):69:69 -> <init>
+    1:49:void onPurchasesUpdated(com.android.billingclient.api.BillingResult,java.util.List):72:120 -> onPurchasesUpdated
+    50:55:void onPurchasesUpdated(com.android.billingclient.api.BillingResult,java.util.List):107:112 -> onPurchasesUpdated
+com.remi.remiads.a_pro.MyBilling$2 -> b.b$b:
+    com.remi.remiads.a_pro.MyBilling this$0 -> a
+    1:1:void <init>(com.remi.remiads.a_pro.MyBilling):168:168 -> <init>
+    1:4:void onAcknowledgePurchaseResponse(com.android.billingclient.api.BillingResult):171:174 -> onAcknowledgePurchaseResponse
+com.remi.remiads.a_pro.MyBilling$3 -> b.b$c:
+    com.remi.remiads.a_pro.MyBilling this$0 -> a
+    1:1:void <init>(com.remi.remiads.a_pro.MyBilling):246:246 -> <init>
+    1:10:void onQueryPurchasesResponse(com.android.billingclient.api.BillingResult,java.util.List):249:258 -> onQueryPurchasesResponse
+com.remi.remiads.a_pro.MyBilling$PURCHASE_TYPE -> b.b$d:
+    com.remi.remiads.a_pro.MyBilling$PURCHASE_TYPE[] $VALUES -> e
+    com.remi.remiads.a_pro.MyBilling$PURCHASE_TYPE PURCHASE_ONE_TIME -> a
+    com.remi.remiads.a_pro.MyBilling$PURCHASE_TYPE PURCHASE_SUBSCRIPTION -> b
+    com.remi.remiads.a_pro.MyBilling$PURCHASE_TYPE PURCHASE_SUBS_CACHE -> c
+    com.remi.remiads.a_pro.MyBilling$PURCHASE_TYPE PURCHASE_UNSPECIFIED -> d
+    1:4:void <clinit>():45:48 -> <clinit>
+    5:5:void <clinit>():44:44 -> <clinit>
+    1:1:void <init>(java.lang.String,int):44:44 -> <init>
+    1:1:com.remi.remiads.a_pro.MyBilling$PURCHASE_TYPE valueOf(java.lang.String):44:44 -> valueOf
+    1:1:com.remi.remiads.a_pro.MyBilling$PURCHASE_TYPE[] values():44:44 -> values
+com.remi.remiads.a_pro.MyBillingResult -> b.c:
+    void onPurchasesCancel() -> a
+    void onNotConnect() -> b
+    void onPurchasesProcessing() -> c
+    void onPurchasesDone() -> d
+com.remi.remiads.a_pro.MyBillingSubsResult -> b.d:
+    void onPurchasesCancel() -> a
+    void onNotConnect() -> b
+    void onPurchasesProcessing() -> c
+    void onPurchasesDone() -> d
+    void onPurchaseError() -> e
+com.remi.remiads.a_pro.PriceResult -> b.e:
+    void onListPrice(java.util.List) -> a
+com.remi.remiads.ads.BannerView -> c.a:
+    com.google.android.gms.ads.AdView adView -> a
+    1:2:void <init>(android.content.Context):20:21 -> <init>
+    3:4:void <init>(android.content.Context,android.util.AttributeSet):25:26 -> <init>
+    5:6:void <init>(android.content.Context,android.util.AttributeSet,int):30:31 -> <init>
+    1:18:void init(int):35:52 -> a
+    19:20:void onDestroy():66:67 -> a
+    1:2:void onPause():61:62 -> b
+    1:2:void onResume():56:57 -> c
+com.remi.remiads.ads.FullManager -> c.b:
+    android.os.Handler handler -> f
+    com.remi.remiads.ads.FullManager fullAds -> g
+    long loadTime -> b
+    com.remi.remiads.itf.ShowAdsListen showAdsListen -> d
+    boolean isGoogleFist -> e
+    com.google.android.gms.ads.interstitial.InterstitialAd interstitialAd -> c
+    boolean isLoading -> a
+    1:1:void <init>():45:45 -> <init>
+    2:12:void <init>():36:46 -> <init>
+    1:1:boolean access$002(com.remi.remiads.ads.FullManager,boolean):26:26 -> a
+    2:2:boolean access$100(com.remi.remiads.ads.FullManager):26:26 -> a
+    3:3:long access$302(com.remi.remiads.ads.FullManager,long):26:26 -> a
+    4:4:com.google.android.gms.ads.interstitial.InterstitialAd access$402(com.remi.remiads.ads.FullManager,com.google.android.gms.ads.interstitial.InterstitialAd):26:26 -> a
+    5:7:com.remi.remiads.ads.FullManager getInstance():31:33 -> a
+    8:9:boolean lambda$new$0(android.os.Message):47:48 -> a
+    10:37:void loadAds(android.content.Context):57:84 -> a
+    38:38:void loadAds(android.content.Context):58:58 -> a
+    39:50:void showAds(android.app.Activity,com.remi.remiads.itf.ShowAdsListen):137:148 -> a
+    51:51:void showAds(android.app.Activity,com.remi.remiads.itf.ShowAdsListen):144:144 -> a
+    52:52:void showAds(android.app.Activity,com.remi.remiads.itf.ShowAdsListen):139:139 -> a
+    53:123:void lambda$showAds$1(android.app.Activity):154:224 -> a
+    1:1:void access$200(com.remi.remiads.ads.FullManager):26:26 -> b
+    2:84:void showAdsNotDialog(android.app.Activity,com.remi.remiads.itf.ShowAdsListen):230:312 -> b
+    85:155:void showAdsNotDialog(android.app.Activity,com.remi.remiads.itf.ShowAdsListen):237:307 -> b
+    156:156:void showAdsNotDialog(android.app.Activity,com.remi.remiads.itf.ShowAdsListen):232:232 -> b
+    157:157:boolean isAdAvailable():317:317 -> b
+    158:158:void onPause(android.app.Activity):325:325 -> b
+    1:1:android.os.Handler access$500(com.remi.remiads.ads.FullManager):26:26 -> c
+    2:43:void loadIrcAds():89:130 -> c
+    44:44:void onResume(android.app.Activity):321:321 -> c
+    1:74:void showAds(android.app.Activity):153:226 -> d
+com.remi.remiads.ads.FullManager$1 -> c.b$a:
+    com.remi.remiads.ads.FullManager this$0 -> a
+    1:1:void <init>(com.remi.remiads.ads.FullManager):66:66 -> <init>
+    1:4:void onAdLoaded(com.google.android.gms.ads.interstitial.InterstitialAd):77:80 -> a
+    1:4:void onAdFailedToLoad(com.google.android.gms.ads.LoadAdError):69:72 -> onAdFailedToLoad
+    1:1:void onAdLoaded(java.lang.Object):66:66 -> onAdLoaded
+com.remi.remiads.ads.FullManager$2 -> c.b$b:
+    com.remi.remiads.ads.FullManager this$0 -> a
+    1:1:void <init>(com.remi.remiads.ads.FullManager):93:93 -> <init>
+    1:1:void onInterstitialAdLoadFailed(com.ironsource.mediationsdk.logger.IronSourceError):102:102 -> onInterstitialAdLoadFailed
+    1:2:void onInterstitialAdReady():96:97 -> onInterstitialAdReady
+com.remi.remiads.ads.FullManager$3 -> c.b$c:
+    com.remi.remiads.ads.FullManager this$0 -> b
+    android.app.Activity val$activity -> a
+    1:1:void <init>(com.remi.remiads.ads.FullManager,android.app.Activity):155:155 -> <init>
+    1:2:void onAdClicked():179:180 -> onAdClicked
+    1:4:void onAdDismissedFullScreenContent():171:174 -> onAdDismissedFullScreenContent
+    1:4:void onAdFailedToShowFullScreenContent(com.google.android.gms.ads.AdError):158:161 -> onAdFailedToShowFullScreenContent
+    1:1:void onAdShowedFullScreenContent():166:166 -> onAdShowedFullScreenContent
+com.remi.remiads.ads.FullManager$4 -> c.b$d:
+    com.remi.remiads.ads.FullManager this$0 -> b
+    android.app.Activity val$activity -> a
+    1:1:void <init>(com.remi.remiads.ads.FullManager,android.app.Activity):185:185 -> <init>
+    1:2:void onInterstitialAdClosed():200:201 -> onInterstitialAdClosed
+    1:2:void onInterstitialAdShowFailed(com.ironsource.mediationsdk.logger.IronSourceError):211:212 -> onInterstitialAdShowFailed
+com.remi.remiads.ads.FullManager$5 -> c.b$e:
+    com.remi.remiads.ads.FullManager this$0 -> b
+    android.app.Activity val$activity -> a
+    1:1:void <init>(com.remi.remiads.ads.FullManager,android.app.Activity):238:238 -> <init>
+    1:2:void onAdClicked():262:263 -> onAdClicked
+    1:4:void onAdDismissedFullScreenContent():254:257 -> onAdDismissedFullScreenContent
+    1:4:void onAdFailedToShowFullScreenContent(com.google.android.gms.ads.AdError):241:244 -> onAdFailedToShowFullScreenContent
+    1:1:void onAdShowedFullScreenContent():249:249 -> onAdShowedFullScreenContent
+com.remi.remiads.ads.FullManager$6 -> c.b$f:
+    com.remi.remiads.ads.FullManager this$0 -> b
+    android.app.Activity val$activity -> a
+    1:1:void <init>(com.remi.remiads.ads.FullManager,android.app.Activity):268:268 -> <init>
+    1:2:void onInterstitialAdClosed():283:284 -> onInterstitialAdClosed
+    1:2:void onInterstitialAdShowFailed(com.ironsource.mediationsdk.logger.IronSourceError):294:295 -> onInterstitialAdShowFailed
+com.remi.remiads.ads.OpenAdManager -> c.c:
+    com.google.android.gms.ads.appopen.AppOpenAd appOpenAd -> b
+    long loadTime -> d
+    boolean isShowingAd -> a
+    boolean isLoadingAd -> c
+    1:6:void <init>():20:25 -> <init>
+    1:1:com.google.android.gms.ads.appopen.AppOpenAd access$002(com.remi.remiads.ads.OpenAdManager,com.google.android.gms.ads.appopen.AppOpenAd):20:20 -> a
+    2:2:boolean access$102(com.remi.remiads.ads.OpenAdManager,boolean):20:20 -> a
+    3:3:long access$202(com.remi.remiads.ads.OpenAdManager,long):20:20 -> a
+    4:10:void loadAd(android.content.Context,com.remi.remiads.itf.LoadAdsListen):28:34 -> a
+    11:11:void loadAd(android.content.Context,com.remi.remiads.itf.LoadAdsListen):29:29 -> a
+    12:12:boolean isAdAvailable():53:53 -> a
+    13:50:void showAdIfAvailable(android.app.Activity,com.remi.remiads.itf.ShowAdsListen):57:94 -> a
+    1:1:boolean access$302(com.remi.remiads.ads.OpenAdManager,boolean):20:20 -> b
+com.remi.remiads.ads.OpenAdManager$1 -> c.c$a:
+    com.remi.remiads.itf.LoadAdsListen val$loadAdsListen -> a
+    com.remi.remiads.ads.OpenAdManager this$0 -> b
+    1:1:void <init>(com.remi.remiads.ads.OpenAdManager,com.remi.remiads.itf.LoadAdsListen):35:35 -> <init>
+    1:4:void onAdLoaded(com.google.android.gms.ads.appopen.AppOpenAd):38:41 -> a
+    1:2:void onAdFailedToLoad(com.google.android.gms.ads.LoadAdError):46:47 -> onAdFailedToLoad
+    1:1:void onAdLoaded(java.lang.Object):35:35 -> onAdLoaded
+com.remi.remiads.ads.OpenAdManager$2 -> c.c$b:
+    com.remi.remiads.ads.OpenAdManager this$0 -> c
+    com.remi.remiads.itf.ShowAdsListen val$showAdsListen -> a
+    android.app.Activity val$activity -> b
+    1:1:void <init>(com.remi.remiads.ads.OpenAdManager,com.remi.remiads.itf.ShowAdsListen,android.app.Activity):67:67 -> <init>
+    1:2:void onAdClicked():88:89 -> onAdClicked
+    1:3:void onAdDismissedFullScreenContent():70:72 -> onAdDismissedFullScreenContent
+    1:3:void onAdFailedToShowFullScreenContent(com.google.android.gms.ads.AdError):77:79 -> onAdFailedToShowFullScreenContent
+com.remi.remiads.ads.VideoAdsManager -> c.d:
+    com.google.android.gms.ads.rewarded.RewardedAd rewardedAd -> b
+    com.remi.remiads.dialog.DialogLoad dialogLoad -> a
+    boolean reward -> c
+    com.remi.remiads.ads.VideoAdsManager videoAds -> d
+    1:1:void <init>():23:23 -> <init>
+    1:1:com.google.android.gms.ads.rewarded.RewardedAd access$002(com.remi.remiads.ads.VideoAdsManager,com.google.android.gms.ads.rewarded.RewardedAd):23:23 -> a
+    2:2:com.remi.remiads.dialog.DialogLoad access$100(com.remi.remiads.ads.VideoAdsManager):23:23 -> a
+    3:3:boolean access$202(com.remi.remiads.ads.VideoAdsManager,boolean):23:23 -> a
+    4:6:com.remi.remiads.ads.VideoAdsManager getInstance():28:30 -> a
+    7:41:void loadAds(android.content.Context,com.remi.remiads.itf.LoadAdsListen):38:72 -> a
+    42:110:void showRewardedVideo(android.app.Activity,com.remi.remiads.itf.ShowVideoListen):77:145 -> a
+    111:111:void lambda$showRewardedVideo$0(com.google.android.gms.ads.rewarded.RewardItem):97:97 -> a
+    112:112:void onPause(android.app.Activity):162:162 -> a
+    1:1:boolean access$200(com.remi.remiads.ads.VideoAdsManager):23:23 -> b
+    2:2:boolean isAdAvailable():150:150 -> b
+    3:3:void onResume(android.app.Activity):158:158 -> b
+    1:1:boolean isAdmobAvailable():154:154 -> c
+com.remi.remiads.ads.VideoAdsManager$1 -> c.d$a:
+    com.remi.remiads.ads.VideoAdsManager this$0 -> b
+    com.remi.remiads.itf.LoadAdsListen val$loadAdsListen -> a
+    1:1:void <init>(com.remi.remiads.ads.VideoAdsManager,com.remi.remiads.itf.LoadAdsListen):50:50 -> <init>
+    1:5:void onAdLoaded(com.google.android.gms.ads.rewarded.RewardedAd):63:67 -> a
+    1:6:void onAdFailedToLoad(com.google.android.gms.ads.LoadAdError):53:58 -> onAdFailedToLoad
+    1:1:void onAdLoaded(java.lang.Object):50:50 -> onAdLoaded
+com.remi.remiads.ads.VideoAdsManager$2 -> c.d$b:
+    com.remi.remiads.ads.VideoAdsManager this$0 -> c
+    android.app.Activity val$activity -> a
+    com.remi.remiads.itf.ShowVideoListen val$showVideoListen -> b
+    1:1:void <init>(com.remi.remiads.ads.VideoAdsManager,android.app.Activity,com.remi.remiads.itf.ShowVideoListen):79:79 -> <init>
+    1:3:void onAdDismissedFullScreenContent():92:94 -> onAdDismissedFullScreenContent
+    1:2:void onAdFailedToShowFullScreenContent(com.google.android.gms.ads.AdError):86:87 -> onAdFailedToShowFullScreenContent
+com.remi.remiads.ads.VideoAdsManager$3 -> c.d$c:
+    com.remi.remiads.ads.VideoAdsManager this$0 -> b
+    com.remi.remiads.itf.ShowVideoListen val$showVideoListen -> a
+    1:1:void <init>(com.remi.remiads.ads.VideoAdsManager,com.remi.remiads.itf.ShowVideoListen):99:99 -> <init>
+    1:2:void onRewardedVideoAdClosed():107:108 -> onRewardedVideoAdClosed
+    1:1:void onRewardedVideoAdRewarded(com.ironsource.mediationsdk.model.Placement):128:128 -> onRewardedVideoAdRewarded
+    1:2:void onRewardedVideoAdShowFailed(com.ironsource.mediationsdk.logger.IronSourceError):133:134 -> onRewardedVideoAdShowFailed
+com.remi.remiads.dialog.DialogLoad -> d.a:
+    android.widget.TextView tvTitle -> b
+    int text -> a
+    1:4:void <init>(android.content.Context):28:31 -> <init>
+    1:4:void onShowDialog(int):68:71 -> a
+    5:8:android.graphics.drawable.GradientDrawable bgLayout(int,int):75:78 -> a
+    1:29:void onCreate(android.os.Bundle):36:64 -> onCreate
+com.remi.remiads.dialog.DialogLoadAds -> d.b:
+    com.remi.remiads.dialog.DialogLoadAds$LoadDone loadDone -> a
+    android.app.Activity activity -> b
+    1:6:void <init>(android.content.Context,com.remi.remiads.dialog.DialogLoadAds$LoadDone):30:35 -> <init>
+    1:8:void lambda$onCreate$0():68:75 -> a
+    9:12:android.graphics.drawable.GradientDrawable bgLayout(int,int):80:83 -> a
+    1:28:void onCreate(android.os.Bundle):40:67 -> onCreate
+com.remi.remiads.dialog.DialogLoadAds$LoadDone -> d.b$a:
+    void onDone() -> a
+com.remi.remiads.dialog.DialogLoadVideoAds -> d.c:
+    com.remi.remiads.itf.DialogAdsResult dialogResult -> a
+    1:14:void <init>(android.content.Context,com.remi.remiads.itf.DialogAdsResult):28:41 -> <init>
+    1:1:void lambda$new$0(android.view.View,int):38:38 -> a
+    2:3:void lambda$onCreate$1(android.view.View):87:88 -> a
+    4:7:android.graphics.drawable.GradientDrawable bgLayout(android.content.Context,int):121:124 -> a
+    1:2:void lambda$onCreate$2(android.view.View):115:116 -> b
+    1:69:void onCreate(android.os.Bundle):46:114 -> onCreate
+com.remi.remiads.itf.DialogAdsResult -> e.a:
+    void onPlayVideo() -> a
+    void onPremium() -> b
+com.remi.remiads.itf.LoadAdsListen -> e.b:
+    void onLoaded() -> a
+com.remi.remiads.itf.ShowAdsListen -> e.c:
+    void onCloseAds() -> a
+com.remi.remiads.itf.ShowVideoListen -> e.d:
+    void onShowDismiss(boolean) -> a
+com.remi.remiads.itf.SplashResult -> e.e:
+    void onEnd() -> a
+com.remi.remiads.native_ads.LoaderRect -> f.a:
+    com.google.android.gms.ads.nativead.NativeAd nativeAd -> b
+    com.remi.remiads.native_ads.NativeResult nativeResult -> a
+    1:1:void <init>():23:23 -> <init>
+    1:1:com.remi.remiads.native_ads.NativeResult access$000(com.remi.remiads.native_ads.LoaderRect):23:23 -> a
+    2:28:void loadAds(android.content.Context,int,com.remi.remiads.native_ads.NativeResult):29:55 -> a
+    29:33:void lambda$loadAds$0(com.google.android.gms.ads.nativead.NativeAd):36:40 -> a
+    34:36:void onDestroy():88:90 -> a
+    1:26:void loadAdsSmall(android.content.Context,int,com.remi.remiads.native_ads.NativeResult):59:84 -> b
+    27:27:void loadAdsSmall(android.content.Context,int,com.remi.remiads.native_ads.NativeResult):60:60 -> b
+    28:32:void lambda$loadAdsSmall$1(com.google.android.gms.ads.nativead.NativeAd):66:70 -> b
+com.remi.remiads.native_ads.LoaderRect$1 -> f.a$a:
+    com.remi.remiads.native_ads.LoaderRect this$0 -> a
+    1:1:void <init>(com.remi.remiads.native_ads.LoaderRect):45:45 -> <init>
+    1:4:void onAdFailedToLoad(com.google.android.gms.ads.LoadAdError):48:51 -> onAdFailedToLoad
+com.remi.remiads.native_ads.LoaderRect$2 -> f.a$b:
+    com.remi.remiads.native_ads.LoaderRect this$0 -> a
+    1:1:void <init>(com.remi.remiads.native_ads.LoaderRect):74:74 -> <init>
+    1:4:void onAdFailedToLoad(com.google.android.gms.ads.LoadAdError):77:80 -> onAdFailedToLoad
+com.remi.remiads.native_ads.NativeResult -> f.b:
+    void onLoaded(com.google.android.gms.ads.nativead.NativeAd) -> a
+com.remi.remiads.native_ads.ViewNativeAds -> f.c:
+    com.remi.remiads.native_ads.LoaderRect loaderRect -> e
+    com.google.android.gms.ads.nativead.NativeAdView adView -> b
+    android.widget.RelativeLayout llAll -> d
+    android.widget.RelativeLayout llLoad -> a
+    boolean small -> c
+    1:2:void <init>(android.content.Context):32:33 -> <init>
+    3:4:void <init>(android.content.Context,android.util.AttributeSet):37:38 -> <init>
+    5:6:void <init>(android.content.Context,android.util.AttributeSet,int):42:43 -> <init>
+    1:8:void init():47:54 -> a
+    9:34:void addAds(android.app.Activity,boolean,int):59:84 -> a
+    35:37:void lambda$loadAds$0(android.app.Activity,com.google.android.gms.ads.nativead.NativeAd):89:91 -> a
+    38:42:void loadAds(android.content.Context,boolean,int):100:104 -> a
+    43:50:void showAds(com.google.android.gms.ads.nativead.NativeAd):108:115 -> a
+    51:51:void showAds(com.google.android.gms.ads.nativead.NativeAd):109:109 -> a
+    52:90:void populateNativeAdView(com.google.android.gms.ads.nativead.NativeAd,com.google.android.gms.ads.nativead.NativeAdView):121:159 -> a
+    91:139:void populateNativeAdView(com.google.android.gms.ads.nativead.NativeAd,com.google.android.gms.ads.nativead.NativeAdView):158:206 -> a
+    1:9:void loadAds(android.app.Activity,boolean,int):88:96 -> b
+    10:45:void populateNativeAdViewSmall(com.google.android.gms.ads.nativead.NativeAd,com.google.android.gms.ads.nativead.NativeAdView):218:253 -> b
+    46:94:void populateNativeAdViewSmall(com.google.android.gms.ads.nativead.NativeAd,com.google.android.gms.ads.nativead.NativeAdView):252:300 -> b
+    95:96:void onDestroy():311:312 -> b
+com.remi.remiads.native_ads.ViewNativeAds$1 -> f.c$a:
+    com.remi.remiads.native_ads.ViewNativeAds this$0 -> a
+    1:1:void <init>(com.remi.remiads.native_ads.ViewNativeAds):206:206 -> <init>
+    1:1:void onVideoEnd():209:209 -> onVideoEnd
+com.remi.remiads.native_ads.ViewNativeAds$2 -> f.c$b:
+    com.remi.remiads.native_ads.ViewNativeAds this$0 -> a
+    1:1:void <init>(com.remi.remiads.native_ads.ViewNativeAds):300:300 -> <init>
+    1:1:void onVideoEnd():303:303 -> onVideoEnd
+com.remi.remiads.nativenew.AdsNativeItem -> g.a:
+    java.util.ArrayList remove -> c
+    java.util.ArrayList apps -> b
+    java.util.ArrayList gone -> a
+    1:1:void <init>():7:7 -> <init>
+com.remi.remiads.nativenew.ItemNative -> g.b:
+    java.lang.String cover -> f
+    java.lang.String pkg -> a
+    int num -> b
+    java.lang.String title -> c
+    java.lang.String icon -> e
+    java.lang.String content -> d
+    1:1:void <init>():5:5 -> <init>
+com.remi.remiads.nativenew.ItemRemove -> g.c:
+    java.lang.String pkg -> a
+    java.util.ArrayList app -> b
+    1:1:void <init>():7:7 -> <init>
+com.remi.remiads.nativenew.ViewNative -> g.d:
+    com.remi.remiads.nativenew.ItemNative itemNative -> a
+    1:2:void <init>(android.content.Context):28:29 -> <init>
+    3:4:void <init>(android.content.Context,android.util.AttributeSet):33:34 -> <init>
+    5:6:void <init>(android.content.Context,android.util.AttributeSet,int):38:39 -> <init>
+    1:84:void initView():43:126 -> a
+    85:91:boolean lambda$initView$0(android.os.Message):44:50 -> a
+    92:162:void lambda$initView$1(android.os.Handler):55:125 -> a
+    163:163:void lambda$initView$1(android.os.Handler):69:69 -> a
+    164:185:void init(com.remi.remiads.nativenew.ItemNative):131:152 -> a
+    186:189:void actionClick(android.view.View):156:159 -> a
+com.remi.remiads.utils.ItemFist -> h.a:
+    boolean adm -> a
+    java.util.ArrayList i -> c
+    java.util.ArrayList g -> b
+    1:1:void <init>():7:7 -> <init>
+    1:14:boolean googleFist(java.lang.String):18:31 -> a
+com.remi.remiads.utils.RmSave -> h.b:
+    long TIME_LOAD_NATIVE -> b
+    long TIME_END_ADS_CLICK -> a
+    1:1:void <init>():13:13 -> <init>
+    1:1:void putPayLifetime(android.content.Context,boolean):33:33 -> a
+    2:8:void putAppClick(android.content.Context,java.lang.String):117:123 -> a
+    9:21:java.util.ArrayList arrAppClick(android.content.Context):127:139 -> a
+    1:1:void putPaySubscription(android.content.Context,boolean):29:29 -> b
+    2:2:void putFist(android.content.Context,java.lang.String):69:69 -> b
+    3:11:boolean getGoogleFist(android.content.Context):73:81 -> b
+    1:1:void putSubToken(android.content.Context,java.lang.String):37:37 -> c
+    2:8:com.remi.remiads.nativenew.AdsNativeItem getItemNative(android.content.Context):104:110 -> c
+    1:1:boolean getPay(android.content.Context):24:24 -> d
+    2:2:void putSubType(android.content.Context,java.lang.String):45:45 -> d
+    1:1:android.content.SharedPreferences getShare(android.content.Context):19:19 -> e
+    1:1:java.lang.String getSubToken(android.content.Context):41:41 -> f
+    1:1:java.lang.String getSubType(android.content.Context):49:49 -> g
+    1:1:boolean isFistOpen(android.content.Context):53:53 -> h
+    1:1:boolean isLoadAds(android.content.Context):149:149 -> i
+    1:1:boolean isRate(android.content.Context):61:61 -> j
+    1:7:void lambda$putNativeAds$0(android.content.Context):93:99 -> k
+    1:1:void putFistOpen(android.content.Context):57:57 -> l
+    1:12:void putNativeAds(android.content.Context):89:100 -> m
+    1:1:void putTimeAdsClick(android.content.Context):145:145 -> n
+    1:1:void rated(android.content.Context):65:65 -> o
+com.remi.remiads.utils.RmSave$1 -> h.b$a:
+    1:1:void <init>():77:77 -> <init>
+com.remi.remiads.utils.RmSave$2 -> h.b$b:
+    1:1:void <init>():108:108 -> <init>
+com.remi.remiads.utils.RmSave$3 -> h.b$c:
+    1:1:void <init>():131:131 -> <init>
+com.remi.remiads.utils.RmUtils -> h.c:
+    java.lang.String LINK_FIST -> a
+    java.lang.String EMAIL -> c
+    java.lang.String ADS_OTHER -> b
+    java.lang.String TITLE_EMAIL -> d
+    1:1:void <init>():19:19 -> <init>
+    1:14:java.lang.String getTextWithUrl(java.lang.String):28:41 -> a
+    15:15:boolean wasLoadTimeLessThanNHoursAgo(long,int):45:45 -> a
+    16:19:boolean isPackageInstalled(android.content.Context,java.lang.String):56:59 -> a
+    20:28:void feedback(android.content.Context):78:86 -> a
+    1:2:boolean isInternetAvailable(android.content.Context):51:52 -> b
+    3:9:void ratePkg(android.content.Context,java.lang.String):67:73 -> b

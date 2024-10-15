@@ -1,0 +1,41 @@
+<resources>
+    <!--ID for Production Release-->
+    <!--    <string name="ads_app" translatable="false">ca-app-pub-7771788727094998~9569098483</string>-->
+    <!--    <string name="ads_open" translatable="false">ca-app-pub-7771788727094998/3587549034</string>-->
+    <!--    <string name="ads_full" translatable="false">ca-app-pub-7771788727094998/6177482538</string>-->
+    <!--    <string name="ads_video" translatable="false">1111111</string>-->
+    <!--    <string name="na_small" translatable="false">1111111</string>-->
+    <!--    <string name="na_big" translatable="false">1111111</string>-->
+    <!--    <string name="banner" translatable="false">ca-app-pub-7771788727094998/7359273089</string>-->
+    <!--    <string name="ads_irc" translatable="false">1a9c286bd</string>-->
+    <!--    <string name="id_pay" translatable="false">1111111.pro</string>-->
+    <!--    <string name="id_sub_week" translatable="false">com.remi.pdfscanner_week</string>-->
+    <!--    <string name="id_sub_month" translatable="false">com.remi.pdfscanner.sub_month</string>-->
+    <!--    <string name="id_sub_year" translatable="false">com.remi.pdfscanner.sub_year</string>-->
+
+    <!--    ID for testing-->
+    <string name="ads_app" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="ads_open" translatable="false">ca-app-pub-3940256099942544/3419835294</string>
+    <string name="ads_full" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="ads_video" translatable="false">ca-app-pub-3940256099942544/5224354917</string>
+    <string name="na_small" translatable="false">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="na_big" translatable="false">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="banner" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="ads_irc" translatable="false">11240204d</string>
+    <string name="id_pay" translatable="false">android.test.canceled</string>
+    <string name="id_sub_week" translatable="false">android.test.purchased</string>
+    <string name="id_sub_month" translatable="false">android.test.canceled</string>
+    <string name="id_sub_year" translatable="false">android.test.purchased</string>
+
+
+    <string name="app_name">My Ads</string>
+    <string name="premium">Go Premium</string>
+    <string name="action_ads">This action may contain ads</string>
+    <string name="no_email">No Email</string>
+    <string name="ads_load">Ads loading…</string>
+    <string name="ad">Ad</string>
+    <string name="install">Install</string>
+    <string name="watch_video">Watch Video</string>
+    <string name="title_ads_video">Advanced features</string>
+    <string name="content_ads_video">To use this feature, please upgrade to the paid version or watch a rewarded ad.</string>
+</resources>

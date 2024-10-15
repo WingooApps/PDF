@@ -1,0 +1,3 @@
+/Users/remi/Documents/publishing/ScannerPDF/smartcropperlib/.cxx/Debug/3yi6g1j3/arm64-v8a/CMakeFiles/smart_cropper.dir
+/Users/remi/Documents/publishing/ScannerPDF/smartcropperlib/.cxx/Debug/3yi6g1j3/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/remi/Documents/publishing/ScannerPDF/smartcropperlib/.cxx/Debug/3yi6g1j3/arm64-v8a/CMakeFiles/rebuild_cache.dir

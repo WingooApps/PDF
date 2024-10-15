@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/Users/remi/Documents/publishing/ScannerPDF/smartcropperlib/.cxx/Debug/3yi6g1j3/x86",
+  "command": "/Users/remi/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=i686-none-linux-android19 --sysroot=/Users/remi/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dsmart_cropper_EXPORTS -I/Users/remi/Documents/publishing/ScannerPDF/smartcropperlib/opencv/include -I/Users/remi/Documents/publishing/ScannerPDF/smartcropperlib/src/main/cpp/include -std=c++11 -frtti -fexceptions -g  -fno-limit-debug-info -fPIC -o CMakeFiles/smart_cropper.dir/src/main/cpp/Scanner.cpp.o -c /Users/remi/Documents/publishing/ScannerPDF/smartcropperlib/src/main/cpp/Scanner.cpp",
+  "file": "/Users/remi/Documents/publishing/ScannerPDF/smartcropperlib/src/main/cpp/Scanner.cpp"
+},
+{
+  "directory": "/Users/remi/Documents/publishing/ScannerPDF/smartcropperlib/.cxx/Debug/3yi6g1j3/x86",
+  "command": "/Users/remi/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=i686-none-linux-android19 --sysroot=/Users/remi/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dsmart_cropper_EXPORTS -I/Users/remi/Documents/publishing/ScannerPDF/smartcropperlib/opencv/include -I/Users/remi/Documents/publishing/ScannerPDF/smartcropperlib/src/main/cpp/include -std=c++11 -frtti -fexceptions -g  -fno-limit-debug-info -fPIC -o CMakeFiles/smart_cropper.dir/src/main/cpp/android_utils.cpp.o -c /Users/remi/Documents/publishing/ScannerPDF/smartcropperlib/src/main/cpp/android_utils.cpp",
+  "file": "/Users/remi/Documents/publishing/ScannerPDF/smartcropperlib/src/main/cpp/android_utils.cpp"
+},
+{
+  "directory": "/Users/remi/Documents/publishing/ScannerPDF/smartcropperlib/.cxx/Debug/3yi6g1j3/x86",
+  "command": "/Users/remi/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=i686-none-linux-android19 --sysroot=/Users/remi/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dsmart_cropper_EXPORTS -I/Users/remi/Documents/publishing/ScannerPDF/smartcropperlib/opencv/include -I/Users/remi/Documents/publishing/ScannerPDF/smartcropperlib/src/main/cpp/include -std=c++11 -frtti -fexceptions -g  -fno-limit-debug-info -fPIC -o CMakeFiles/smart_cropper.dir/src/main/cpp/smart_cropper.cpp.o -c /Users/remi/Documents/publishing/ScannerPDF/smartcropperlib/src/main/cpp/smart_cropper.cpp",
+  "file": "/Users/remi/Documents/publishing/ScannerPDF/smartcropperlib/src/main/cpp/smart_cropper.cpp"
+}
+]

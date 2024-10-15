@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1019990434150",
+    "project_id": "pdf-scanner-76b76",
+    "storage_bucket": "pdf-scanner-76b76.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1019990434150:android:c053e0c3aa97528adaa8a7",
+        "android_client_info": {
+          "package_name": "com.remi.pdfscanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1019990434150-lt1q9q9lf03prq6fbr7knu14b0rk0bu0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkVihE6ktPge6BSlJCGIJiek6mJug-bt4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1019990434150-lt1q9q9lf03prq6fbr7knu14b0rk0bu0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

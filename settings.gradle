@@ -1,0 +1,26 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven { url "https://jitpack.io/" }
+        jcenter()
+        maven {
+            url 'https://android-sdk.is.com/'
+        }
+        maven {
+            url 'https://maven.wysaid.org/'
+        }
+    }
+}
+rootProject.name = "PDFScanner"
+include ':app'
+include ':smartcropperlib'
+include ':MyAds'

@@ -1,0 +1,1 @@
+/Users/remi/Documents/publishing/ScannerPDF/smartcropperlib/CMakeLists.txt
